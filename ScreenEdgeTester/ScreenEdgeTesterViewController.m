@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    [imageView setImage:[UIImage imageNamed:@"screen.png"]];
+    [self.view addSubview:imageView];
+    [imageView release];
 }
 
 - (void)viewDidUnload

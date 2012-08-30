@@ -15,6 +15,12 @@
 		3537CBED15EF941E001F391D /* ScreenEdgeTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3537CBEC15EF941E001F391D /* ScreenEdgeTesterAppDelegate.m */; };
 		3537CBF015EF941E001F391D /* ScreenEdgeTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3537CBEF15EF941E001F391D /* ScreenEdgeTesterViewController.m */; };
 		3537CBF315EF941E001F391D /* ScreenEdgeTesterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3537CBF115EF941E001F391D /* ScreenEdgeTesterViewController.xib */; };
+		3537CBFC15EF94D3001F391D /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3537CBFA15EF94D3001F391D /* screen.png */; };
+		3537CBFD15EF94D3001F391D /* screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3537CBFB15EF94D3001F391D /* screen@2x.png */; };
+		3537CC0715EF9558001F391D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3537CC0615EF9558001F391D /* icon.png */; };
+		3537CC0915EF955A001F391D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3537CC0815EF955A001F391D /* icon@2x.png */; };
+		3537CC0B15EF9562001F391D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3537CC0A15EF9562001F391D /* Default.png */; };
+		3537CC0D15EF9567001F391D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3537CC0C15EF9567001F391D /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		3537CBEE15EF941E001F391D /* ScreenEdgeTesterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeTesterViewController.h; sourceTree = "<group>"; };
 		3537CBEF15EF941E001F391D /* ScreenEdgeTesterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeTesterViewController.m; sourceTree = "<group>"; };
 		3537CBF215EF941E001F391D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScreenEdgeTesterViewController.xib; sourceTree = "<group>"; };
+		3537CBFA15EF94D3001F391D /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
+		3537CBFB15EF94D3001F391D /* screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen@2x.png"; sourceTree = "<group>"; };
+		3537CC0615EF9558001F391D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3537CC0815EF955A001F391D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		3537CC0A15EF9562001F391D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3537CC0C15EF9567001F391D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,11 @@
 		3537CBCD15EF941E001F391D = {
 			isa = PBXGroup;
 			children = (
+				3537CC0C15EF9567001F391D /* Default@2x.png */,
+				3537CC0A15EF9562001F391D /* Default.png */,
+				3537CC0815EF955A001F391D /* icon@2x.png */,
+				3537CC0615EF9558001F391D /* icon.png */,
+				3537CBF915EF94A8001F391D /* Images */,
 				3537CBE215EF941E001F391D /* ScreenEdgeTester */,
 				3537CBDB15EF941E001F391D /* Frameworks */,
 				3537CBD915EF941E001F391D /* Products */,
@@ -96,6 +113,15 @@
 				3537CBEA15EF941E001F391D /* ScreenEdgeTester-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3537CBF915EF94A8001F391D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3537CBFA15EF94D3001F391D /* screen.png */,
+				3537CBFB15EF94D3001F391D /* screen@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +178,12 @@
 			files = (
 				3537CBE715EF941E001F391D /* InfoPlist.strings in Resources */,
 				3537CBF315EF941E001F391D /* ScreenEdgeTesterViewController.xib in Resources */,
+				3537CBFC15EF94D3001F391D /* screen.png in Resources */,
+				3537CBFD15EF94D3001F391D /* screen@2x.png in Resources */,
+				3537CC0715EF9558001F391D /* icon.png in Resources */,
+				3537CC0915EF955A001F391D /* icon@2x.png in Resources */,
+				3537CC0B15EF9562001F391D /* Default.png in Resources */,
+				3537CC0D15EF9567001F391D /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +243,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -230,7 +262,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -243,6 +275,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScreenEdgeTester/ScreenEdgeTester-Prefix.pch";
 				INFOPLIST_FILE = "ScreenEdgeTester/ScreenEdgeTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +287,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScreenEdgeTester/ScreenEdgeTester-Prefix.pch";
 				INFOPLIST_FILE = "ScreenEdgeTester/ScreenEdgeTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
